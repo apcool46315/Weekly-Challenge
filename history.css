@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("his-main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 60% 40%;
+}
+
+.container {
+  padding: 0 100px;
+  height: 100%;
+  margin: 3em auto;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+.heading {
+  font-weight: bolder;
+  padding: 0.5em 0.5em;
+  font-size: 2em;
+}
+section {
+  padding: 1.5em;
+  word-spacing: 0.2em;
+  line-height: 1.5em;
+  font-size: 1.15em;
+}
+hr {
+  color: blue;
+}
+footer {
+  background-color: rgba(5, 255, 255, 0.68);
+  text-align: center;
+  padding: 0.25em;
+}

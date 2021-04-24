@@ -1,0 +1,29 @@
+body {
+  background-image: url("main-bg-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  display: flex;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 1.25em 1.5em;
+  padding: 0 5em;
+}
+.navbar li a {
+  font-size: 1.1em;
+  padding: 0.3em;
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bolder;
+  font-family: "Zen Dots", cursive;
+}
+.navbar li a:hover {
+  color: rgb(8, 185, 230);
+}
